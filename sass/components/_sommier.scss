@@ -2,7 +2,7 @@
     padding: 100px 200px;
     background-image: url(../imagenes/bannercolchones.png);
     background-size: cover;
-
+    height: 300px;
     &__h1{
     @extend %bannerTitulo;
     }
@@ -33,6 +33,7 @@
 
 .opcionesSommier {
     margin-top: 40px;
+    margin-left: 10px;
     font-family: $font-principal;
 
     &__sommier{
@@ -114,3 +115,6 @@ section.sommier {
 }
 
 
+.info__elegir{
+    margin-left: 10px;
+}

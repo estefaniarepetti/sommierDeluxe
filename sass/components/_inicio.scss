@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 #logotipo{
     margin: 0;
     background-color: #222221;
@@ -11,9 +12,7 @@
         height: 100px;
         width: 100px;
         border-radius: 20px;
-        margin-top:0;
         object-fit:cover;
-
     }
 
 .navegacion__menu ul {
@@ -134,7 +133,6 @@ nav ul {
     padding: 100px 120px;
     background-image: url(../imagenes/1.png);
     background-size: cover;
-    margin-top: 10px;   
 
     &__titulo{
         font-size: map-get($tamaño , medio );
