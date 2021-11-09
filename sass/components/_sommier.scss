@@ -1,0 +1,116 @@
+.bannersommier{
+    padding: 100px 200px;
+    background-image: url(../imagenes/bannercolchones.png);
+    background-size: cover;
+
+    &__h1{
+    @extend %bannerTitulo;
+    }
+}
+
+.text-center {
+    color: #0B0B61
+}
+
+.accordion {
+    margin-left: 10%;
+    width: 75%;
+}
+
+#collapseOne {
+    color: #380B61;
+}
+
+#collapseTwo {
+    color: #380B61;
+
+}
+
+#collapseThree {
+    color: #380B61;
+}
+
+
+.opcionesSommier {
+    margin-top: 40px;
+    font-family: $font-principal;
+
+    &__sommier{
+        font-size: 40px;
+        margin-left: 10px;
+        color: #0B0B61
+    }
+    .sommier__p {
+        font-size: map-get($tamaño , pequeño );
+        margin-left: 10px;
+    
+    }
+}
+
+#SommierContenedor {
+    width: 80%;
+    margin: 30px 80px;
+    display: grid;
+    grid-template-areas:
+        "sommier1 sommier2 sommier3"
+        "sommier4 sommier5 sommier6";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+
+section.sommier {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.unosommier {
+    grid-area: sommier1
+}
+
+.dossommier {
+    grid-area: sommier2
+}
+
+.tressommier {
+    grid-area: sommier3
+}
+
+.cuatrosommier {
+    grid-area: sommier4
+}
+
+.cincosommier {
+    grid-area: sommier5
+}
+
+.seissommier {
+    grid-area: sommier6;
+}
+
+.imagenSommier {
+    width: 250px;
+    border-radius: 10px;
+}
+.button__sommier {
+    @extend %botonesCompra;
+    color: #fff;
+}
+
+.button__sommier:hover {
+    transform: scale(1.10);
+}
+
+.button__sommiersactive {
+    transform: scale(0.9);
+}
+
+.button__sommier a {
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+

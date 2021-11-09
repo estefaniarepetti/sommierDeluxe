@@ -1,0 +1,528 @@
+/*tablets */
+@media only screen and (max-width: 952px) {
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background-color: #0B243B;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu li a {
+        color: #ffff
+    }
+
+    .banner {
+        padding: 100px 90px;
+    }
+
+    .flex-contenedor {
+        display: grid;
+        margin-left: 5px;
+        grid-template-areas:
+            "buzios zafiro casablanca"
+            " casazul casaverde casarosa";
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3 1fr);
+    }
+
+    .promo1 {
+        font-size: 30px;
+    }
+
+    .contenedor_imagenPrincipal {
+        width: 100px;
+    }
+
+    .consejo1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .consejop {
+        font-size: 15px;
+    }
+
+    .tablaconsejos {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 20px;
+        height: 30px;
+    }
+
+    .consejos2 {
+        padding: 5px 3px;
+        font-size: 10px;
+    }
+
+    .pie {
+        display: inline-flex;
+        justify-content: space-around;
+        height: 200px;
+        width: 100%;
+    }
+
+    .pie__flextitulo {
+        font-size: 12px;
+    }
+
+    .pie__flex2 {
+        font-size: 15px;
+    }
+
+    .pie__dato {
+        font-size: 10px;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .pie__datoa {
+        text-decoration: none;
+    }
+
+
+    @media only screen and (max-width:767px) {
+
+        #logotipo {
+            background-color: #0B0B3B;
+            color: #ffff
+        }
+
+        .logotipo {
+            display: none;
+        }
+
+        .logotipo__img {
+            display: none;
+        }
+
+
+        .navegacion__menu {
+            display: none;
+        }
+
+        nav {
+            height: 27px;
+            margin: -30px;
+            margin-top: 1px;
+            background-color: #ffff;
+        }
+
+        .menu__responsive {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 75%;
+            margin-top: 37px;
+            padding-top: 27px;
+
+        }
+
+        .nav__responvidebutton {
+            background-color: #0B0B3B;
+        }
+
+        .div__responsive {
+            position: relative;
+            top: -1000px;
+            background: #0B173B;
+            transition: all 1s;
+            z-index: 1;
+            width: 80%;
+            height: 70%;
+            padding-top: 10px;
+
+        }
+
+        .responsive_li {
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .responsive_li a {
+            color: #ffff;
+            text-decoration: none;
+        }
+
+        .submenu {
+            display: none;
+        }
+
+        .menu__responsive:hover>.div__responsive {
+            top: -2px;
+        }
+
+        .cabezera {
+            display: flex;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .flex-contenedor {
+            display: grid;
+            margin-left: 5px;
+            grid-template-areas:
+                "buzios zafiro"
+                "casablanca casazul"
+                " casaverde casarosa";
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .promo1 {
+            font-size: 30px;
+            text-align: left;
+
+        }
+
+        .contenedor_imagenPrincipal {
+            width: 100px;
+        }
+
+        .consejo1 {
+            font-size: 30px;
+        }
+
+        .consejop {
+            font-size: 15px;
+        }
+
+        table {
+            margin-top: 20px;
+            margin-left: 2%;
+            width: 50px;
+            height: 60px;
+        }
+
+        .consejos2 {
+            padding: 5px 3px;
+            font-size: 10px;
+        }
+
+        .pie {
+            display: inline-flex;
+            justify-content: space-around;
+
+            width: 100%;
+        }
+
+
+        .pie__flex2 {
+            font-size: 12px;
+        }
+
+        .pie__dato {
+            font-size: 20px;
+        }
+
+
+
+        .a_piedato {
+            text-decoration: none;
+        }
+
+
+    }
+
+}
+
+/*tel moviles */
+@media only screen and (max-width:420px) {
+
+    #logotipo {
+        background-color: #0B0B3B;
+        color: #ffff
+    }
+
+    .logotipo {
+        display: none;
+    }
+
+    .logotipo__img {
+        display: none;
+    }
+
+
+    .navegacion__menu {
+        display: none;
+    }
+
+    nav {
+        height: 27px;
+        margin: -30px;
+        margin-top: 1px;
+        background-color: #ffff;
+    }
+
+    .menu__responsive {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 75%;
+        margin-top: 37px;
+        padding-top: 27px;
+
+    }
+
+    .nav__responvidebutton {
+        background-color: #0B0B3B;
+    }
+
+    .div__responsive {
+        position: relative;
+        top: -1000px;
+        background: #0B173B;
+        transition: all 1s;
+        z-index: 1;
+        width: 80%;
+        height: 70%;
+        padding-top: 10px;
+
+    }
+
+    .responsive_li {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .responsive_li a {
+        color: #ffff;
+        text-decoration: none;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .menu__responsive:hover>.div__responsive {
+        top: -2px;
+    }
+
+    .cabezera {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .banner {
+        display: none;
+    }
+
+    #promociones {
+        margin-top: 100px;
+    }
+
+    .flex-contenedor {
+        display: grid;
+        margin-left: 5px;
+        grid-template-areas:
+            "buzios zafiro"
+            "casablanca casazul"
+            " casaverde casarosa";
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .promo1 {
+        font-size: 30px;
+
+    }
+
+    .contenedor_imagenPrincipal {
+        width: 100px;
+    }
+
+    .consejo1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .consejop {
+        font-size: 15px;
+    }
+
+    table {
+        margin-top: 20px;
+        margin-left: 2%;
+        width: 50px;
+        height: 60px;
+    }
+
+    .consejos2 {
+        padding: 5px 3px;
+        font-size: 10px;
+    }
+
+    .pie-flex {
+        display: inline-flex;
+        justify-content: space-around;
+        height: 10px;
+        width: 100%;
+    }
+
+    .pie__flextitulo {
+        font-size: 9px;
+    }
+
+    .pie__flex2 {
+        font-size: 12px;
+    }
+
+    .pie-dato {
+        font-size: 5px;
+    }
+
+    .new {
+        display: none;
+        font-size: 12px;
+    }
+
+    .a_piedato {
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+
+
+    /*colchones*/
+    .bannercolchones {
+        display: none;
+    }
+
+    .nuestros_colchonesdiv {
+        margin-top: 30px;
+    }
+
+    #colchonContenedor {
+        width: 100%;
+        margin: 30px 80px;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-areas:
+            "matter1 matter2 "
+            "matter4 matter5"
+            "matter3 matter6";
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .unocolchon {
+        grid-area: matter1
+    }
+
+    .doscolchon {
+        grid-area: matter2
+    }
+
+    .trescolchon {
+        grid-area: matter3
+    }
+
+    .cuatrocolchon {
+        grid-area: matter4
+    }
+
+    .cincocolchon {
+        grid-area: matter5
+    }
+
+    .seiscolchon {
+        grid-area: matter6
+    }
+
+    .imagenColchon {
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .datosColchones {
+        display: none;
+    }
+
+    /* Sommier */
+    #SommierContenedor {
+        width: 80%;
+        margin: 10px 30px;
+        display: grid;
+        grid-template-areas:
+            "sommier1 sommier2"
+            "sommier4 sommier5 "
+            "sommier6 sommier3";
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    section.sommier {
+        width: 200px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid rgb(184, 184, 184);
+    }
+
+    .unosommier {
+        grid-area: sommier1
+    }
+
+    .dossommier {
+        grid-area: sommier2
+    }
+
+    .tressommier {
+        grid-area: sommier3
+    }
+
+    .cuatrosommier {
+        grid-area: sommier4
+    }
+
+    .cincosommier {
+        grid-area: sommier5
+    }
+
+    .seissommier {
+        grid-area: sommier6;
+    }
+
+
+    /* Nosotros */
+    .bannerQuienes {
+        display: none;
+    }
+
+    .tituloNosotros {
+        margin: 50px;
+    }
+
+    #Sobrenosotros {
+        display: flex;
+        justify-content: right;
+
+    }
+
+    .sobrenosotros__p {
+        margin: 10px
+    }
+
+    .cont__consultas2 {
+        display: none;
+    }
+
+    /*contactanos*/
+
+    .formulario {
+        min-width: 70px;
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+}

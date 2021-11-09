@@ -1,0 +1,1477 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header */
+
+#logotipo {
+    margin: 0;
+    background-color: black;
+}
+
+#logotipo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.navegacion__menu ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+
+.navegacion__menu li:hover {
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.navegacion__menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.menu__responsive {
+    display: none;
+}
+
+nav ul {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    word-spacing: 30px;
+    list-style: none;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+.navegacion__menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.navegacion__menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.navegacion__menu li a:hover {
+    color: #5882FA;
+    transition: all .3s;
+
+}
+
+.navegacion__submenu {
+    position: absolute;
+    background-color: #819FF7;
+    width: 120%;
+    display: none;
+}
+
+.navegacion__submenu li a {
+    display: block;
+    padding: 15px;
+    color: black;
+    background-color: #E0E6F8;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.navegacion__menu li:hover .navegacion__submenu {
+    display: block
+}
+
+
+.logo__responsive {
+    color: #ffff;
+    font-size: 20px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+
+.nav__responvidebutton {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    background-color: #045FB4;
+    margin-top: -64px;
+
+}
+
+.buton__menuresponsive {
+    font-size: 30px;
+    padding: 20px 6px;
+    margin-right: 200px;
+    text-align: left;
+    width: 100%;
+}
+
+.responsive__a {
+    text-decoration: none;
+}
+
+
+.div__submenu {
+    position: absolute;
+    background-color: #819FF7;
+    width: 120%;
+    text-decoration: none;
+    display: none;
+
+}
+
+
+
+.banner {
+    padding: 220px 120px;
+    background-image: url(../imagenes/habitacion.png);
+    background-size: cover;
+
+}
+
+.banner__titulo {
+    font-size: 30px;
+    padding: 30px 10px;
+    letter-spacing: 17px;
+}
+
+
+#promociones {
+    background-color: white;
+}
+
+.promociones__div {
+    margin-bottom: 50px;
+}
+
+.promociones__titulo {
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 30px 80px;
+    display: grid;
+    grid-template-areas:
+        "buzios zafiro casablanca"
+        "casazul casaverde casarosa";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    padding: 40px;
+}
+
+.contenedor__p-descripion {
+    justify-content: center;
+    padding: 2px;
+    text-align: center;
+    height: 50px;
+    width: 440px;
+}
+
+section.contenedor {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.uno {
+    grid-area: buzios;
+}
+
+.dos {
+    grid-area: zafiro;
+}
+
+.tres {
+    grid-area: casablanca;
+}
+
+.cuatro {
+    grid-area: casazul;
+}
+
+.cinco {
+    grid-area: casaverde;
+}
+
+.seis {
+    grid-area: casarosa;
+}
+
+.contenedor__imagenPrincipal {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.contenedor__buttoncash {
+    padding: 12px 24px;
+    background-Color: #0B243B;
+    border-Radius: 7px;
+    transition: transform 250ms cubic-bezier(.2, .8, .4, 1);
+}
+
+.contenedor__buttoncash:hover {
+    transform: scale(1.10);
+}
+
+.contenedor__buttoncash:active {
+    transform: scale(0.9);
+}
+
+.contenedor__buttoncash a {
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+.contenedor__p-descripion {
+    width: 300px;
+    font-size: 15px;
+    text-align: left;
+}
+
+#consejos {
+    display: grid;
+
+}
+
+.contenedor__consejo1 {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor__consejop {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.consejos__tabla {
+    margin: 90px 60px 0 60px;
+    border-collapse: collapse;
+}
+
+table,
+th {
+    background-color: #9499c4;
+    border: 1px solid #0B2161;
+}
+
+table,
+td {
+    background-color: white;
+    border: 1px solid #0B2161;
+}
+
+.contenedor__consejos2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    padding: 30px 20px;
+    word-spacing: 2px;
+}
+
+
+
+
+/*colchones */
+.bannercolchones {
+    padding: 100px 120px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../imagenes/bannercolchones.png);
+    background-size: cover;
+}
+
+.bannercolchones h1 {
+    font-size: 30px;
+    padding: 30px 10px;
+    letter-spacing: 17px;
+}
+
+.nuestros_colchonesdiv {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.nuestros__colchones {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.historia {
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#colchonContenedor {
+    width: 100%;
+    margin: 30px 80px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "matter1 matter2 matter3"
+        "matter4 matter5 matter6";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+
+section.contenedor1 {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.unocolchon {
+    grid-area: matter1
+}
+
+.doscolchon {
+    grid-area: matter2
+}
+
+.trescolchon {
+    grid-area: matter3
+}
+
+.cuatrocolchon {
+    grid-area: matter4
+}
+
+.cincocolchon {
+    grid-area: matter5
+}
+
+.seiscolchon {
+    grid-area: matter6
+}
+
+.imagenColchon {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.colchon__parrafo {
+    font-size: 15px;
+    width: 100%;
+    padding-right: 100px;
+    text-align: left;
+
+}
+
+.botonColchones {
+    padding: 12px 24px;
+    background-Color: #0B243B;
+    border-Radius: 7px;
+    color: #ffff;
+    transition: transform 250ms cubic-bezier(.2, .8, .4, 1);
+}
+
+.botonColchones:hover {
+    transform: scale(1.10);
+}
+
+.botonColchonesactive {
+    transform: scale(0.9);
+}
+
+.botonbotonColchones a {
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+.consejos2 {
+    padding: 50px 30px;
+    justify-content: space-around;
+}
+
+.consejo__informacion {
+    text-align: left;
+    color: #0B2161;
+}
+
+.consejos2__informacion {
+    margin-top: 10px;
+}
+
+.datosColchones {
+    margin-left: 50px;
+}
+
+.dato__conteiner {
+    width: 100%;
+    margin: 30px 80px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+        "descanso"
+        "descanso1"
+        "descanso2";
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.uno {
+    grid-area: descanso
+}
+
+.dos {
+    grid-area: descanso1
+}
+
+.tres {
+    grid-area: descanso2
+}
+
+.dato__titulo {
+    margin-top: 35px;
+}
+
+.dato__text {
+    font-size: 15px;
+    width: 100%;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.dato__primero:hover .dato__primeroImg {
+    -webkit-transform: scale(.3);
+    transform: scale(1.3);
+}
+
+.dato__primero {
+    overflow: hidden;
+}
+
+.dato__ref {
+    text-decoration: none;
+    color: #9077d4;
+
+}
+
+/* Sommier */
+
+.bannersommier {
+    padding: 100px 200px;
+    background-image: url(../imagenes/cama.png);
+    background-size: cover;
+}
+
+.bannersommier h1 {
+    font-size: 30px;
+    padding: 30px 10px;
+    letter-spacing: 17px;
+}
+
+.text-center {
+    color: #0B0B61
+}
+
+.accordion {
+    margin-left: 10%;
+    width: 75%;
+}
+
+#collapseOne {
+    color: #380B61;
+}
+
+#collapseTwo {
+    color: #380B61;
+
+}
+
+#collapseThree {
+    color: #380B61;
+}
+
+.opcionesSommier {
+    margin-top: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.opciones__sommier {
+    font-size: 40px;
+    margin-left: 10px;
+    color: #0B0B61
+}
+
+.sommier__p {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+#SommierContenedor {
+    width: 80%;
+    margin: 30px 80px;
+    display: grid;
+    grid-template-areas:
+        "sommier1 sommier2 sommier3"
+        "sommier4 sommier5 sommier6";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+
+section.sommier {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.unosommier {
+    grid-area: sommier1
+}
+
+.dossommier {
+    grid-area: sommier2
+}
+
+.tressommier {
+    grid-area: sommier3
+}
+
+.cuatrosommier {
+    grid-area: sommier4
+}
+
+.cincosommier {
+    grid-area: sommier5
+}
+
+.seissommier {
+    grid-area: sommier6;
+}
+
+.imagenSommier {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.button__sommier {
+    padding: 12px 24px;
+    background-Color: #0B243B;
+    border-Radius: 7px;
+    color: #ffff;
+    transition: transform 250ms cubic-bezier(.2, .8, .4, 1);
+}
+
+.button__sommier:hover {
+    transform: scale(1.10);
+}
+
+.button__sommiersactive {
+    transform: scale(0.9);
+}
+
+.button__sommier a {
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+
+/*contactanos */
+
+.bannerContactanos {
+    padding: 100px 120px;
+    background-image: url(../imagenes/bannerContacto.png);
+    background-size: cover;
+
+}
+
+.bannerContactanos h1 {
+    font-size: 30px;
+    padding: 30px 10px;
+    letter-spacing: 17px;
+}
+
+
+
+.formulario__coment {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.flex__conteiner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #000000;
+    margin: 50px 50px;
+}
+
+.formulario {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #1cf;
+    background: transparent;
+    color: #F2F2F2;
+}
+
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, #333);
+    outline: none;
+    border-bottom: 3px solid #5f9
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.img__container2 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.form__imagen {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+}
+
+.img-container {
+    padding: 10px;
+    margin: auto;
+
+}
+
+.form__imagen img {
+    width: 90%;
+    margin: auto;
+}
+
+.form__input2 {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #1cf;
+    background-color: #1cf;
+    color: #F2F2F2;
+}
+
+
+
+
+/*Quienes somos */
+
+.bannerQuienes {
+    padding: 100px 120px;
+    background-image: url(../imagenes/quienesbanner.png);
+    background-size: cover;
+
+}
+
+.banner__titulo {
+    font-size: 30px;
+    padding: 30px 10px;
+    letter-spacing: 17px;
+}
+
+
+.tituloNosotros {
+    display: flex;
+    justify-content: center;
+}
+
+#Sobrenosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sobrenosotros__p {
+    width: 80%;
+    margin-left: 150px;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Oswald'sans-serif;
+}
+
+.sobrenos__destacar {
+    color: #086A87;
+}
+
+.sobrenosotros__titulo3 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align-last: left;
+    color: #000000
+}
+
+
+.envios__inicio {
+    width: 70%;
+    margin: 30px 80px;
+    padding-left: 300px;
+    display: grid;
+    grid-template-areas:
+        "giroy giroy1";
+    grid-template-rows: 1fr, 1fr;
+    grid-row-gap: 20px;
+}
+
+
+.envio_giro {
+    font-family: Arial;
+    font-size: 30px;
+    background-color: #819FF7;
+    color: #ffff;
+    margin: 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px 15px;
+    border-radius: 10px;
+
+
+}
+
+.unogiro {
+    grid-area: giroy
+}
+
+.dosgiro {
+    grid-area: giroy1
+}
+
+.giroY {
+    animation: 1.5s giroY infinite;
+    backface-visibility: vi sible;
+}
+
+@keyframes giroY {
+
+    0% {
+        opacity: 0.5;
+        transform: perspective(200px) rotateY(90deg);
+    }
+
+    40% {
+        opacity: 0.5;
+        transform: perspective(200px) rotateY(-20deg);
+    }
+
+    70% {
+        opacity: 0.5;
+        transform: perspective(200px) rotateY(10deg);
+    }
+
+}
+
+.giroY1 {
+
+    animation: 1.5s giroY infinite;
+    backface-visibility: vi sible;
+}
+
+@keyframes giroY {
+
+    0% {
+        opacity: 0.5;
+        transform: perspective(200px) rotateY(90deg);
+    }
+
+    40% {
+        opacity: 0.5;
+        transform: perspective(200px) rotateY(-20deg);
+    }
+
+    70% {
+        opacity: 0.5;
+        transform: perspective(200px) rotateY(10deg);
+    }
+
+}
+
+.consultas {
+
+    margin-bottom: 500px;
+}
+
+.consultas h3 {
+    font-size: 25px;
+    font-style: oblique;
+    color: #A9BCF5;
+    padding: 20px;
+}
+
+.consultas p {
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+
+.conteiner-consultas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 10px;
+    padding: 10px;
+}
+
+.cont__consultas {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid;
+    height: 470px;
+    padding: 1px;
+}
+
+.cont__consultas2 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    height: 500px;
+    padding: 5px;
+}
+
+.cont__consultas i {
+    text-align: center;
+}
+
+.whatsapp p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.imagenwhatsapp {
+    height: 60px;
+    width: 60px;
+
+}
+
+
+
+/* footer */
+
+.pie {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 160px;
+    width: 100%;
+    min-height: 20vh;
+    background-color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.pie__titulo {
+    margin: 10px;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #ffff
+}
+
+.pie__flex2 {
+    font-size: 20px;
+}
+
+.pie__divdato {
+    display: block;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #ffff
+}
+
+.pie__item {
+    list-style: none;
+}
+
+.pie__datoa {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+.pie__new {
+    justify-content: left;
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+
+/*tablets */
+@media only screen and (max-width: 952px) {
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background-color: #0B243B;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu li a {
+        color: #ffff
+    }
+
+    .banner {
+        padding: 100px 90px;
+    }
+
+    .flex-contenedor {
+        display: grid;
+        margin-left: 5px;
+        grid-template-areas:
+            "buzios zafiro casablanca"
+            " casazul casaverde casarosa";
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3 1fr);
+    }
+
+    .promo1 {
+        font-size: 30px;
+    }
+
+    .contenedor_imagenPrincipal {
+        width: 100px;
+    }
+
+    .consejo1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .consejop {
+        font-size: 15px;
+    }
+
+    .tablaconsejos {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 20px;
+        height: 30px;
+    }
+
+    .consejos2 {
+        padding: 5px 3px;
+        font-size: 10px;
+    }
+
+    .pie {
+        display: inline-flex;
+        justify-content: space-around;
+        height: 200px;
+        width: 100%;
+    }
+
+    .pie__flextitulo {
+        font-size: 12px;
+    }
+
+    .pie__flex2 {
+        font-size: 15px;
+    }
+
+    .pie__dato {
+        font-size: 10px;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .pie__datoa {
+        text-decoration: none;
+    }
+
+
+    @media only screen and (max-width:767px) {
+
+        #logotipo {
+            background-color: #0B0B3B;
+            color: #ffff
+        }
+
+        .logotipo {
+            display: none;
+        }
+
+        .logotipo__img {
+            display: none;
+        }
+
+
+        .navegacion__menu {
+            display: none;
+        }
+
+        nav {
+            height: 27px;
+            margin: -30px;
+            margin-top: 1px;
+            background-color: #ffff;
+        }
+
+        .menu__responsive {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 75%;
+            margin-top: 37px;
+            padding-top: 27px;
+
+        }
+
+        .nav__responvidebutton {
+            background-color: #0B0B3B;
+        }
+
+        .div__responsive {
+            position: relative;
+            top: -1000px;
+            background: #0B173B;
+            transition: all 1s;
+            z-index: 1;
+            width: 80%;
+            height: 70%;
+            padding-top: 10px;
+
+        }
+
+        .responsive_li {
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .responsive_li a {
+            color: #ffff;
+            text-decoration: none;
+        }
+
+        .submenu {
+            display: none;
+        }
+
+        .menu__responsive:hover>.div__responsive {
+            top: -2px;
+        }
+
+        .cabezera {
+            display: flex;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .flex-contenedor {
+            display: grid;
+            margin-left: 5px;
+            grid-template-areas:
+                "buzios zafiro"
+                "casablanca casazul"
+                " casaverde casarosa";
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .promo1 {
+            font-size: 30px;
+            text-align: left;
+
+        }
+
+        .contenedor_imagenPrincipal {
+            width: 100px;
+        }
+
+        .consejo1 {
+            font-size: 30px;
+        }
+
+        .consejop {
+            font-size: 15px;
+        }
+
+        table {
+            margin-top: 20px;
+            margin-left: 2%;
+            width: 50px;
+            height: 60px;
+        }
+
+        .consejos2 {
+            padding: 5px 3px;
+            font-size: 10px;
+        }
+
+        .pie {
+            display: inline-flex;
+            justify-content: space-around;
+
+            width: 100%;
+        }
+
+
+        .pie__flex2 {
+            font-size: 12px;
+        }
+
+        .pie__dato {
+            font-size: 20px;
+        }
+
+
+
+        .a_piedato {
+            text-decoration: none;
+        }
+
+
+    }
+
+}
+
+/*tel moviles */
+@media only screen and (max-width:420px) {
+
+    #logotipo {
+        background-color: #0B0B3B;
+        color: #ffff
+    }
+
+    .logotipo {
+        display: none;
+    }
+
+    .logotipo__img {
+        display: none;
+    }
+
+
+    .navegacion__menu {
+        display: none;
+    }
+
+    nav {
+        height: 27px;
+        margin: -30px;
+        margin-top: 1px;
+        background-color: #ffff;
+    }
+
+    .menu__responsive {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 75%;
+        margin-top: 37px;
+        padding-top: 27px;
+
+    }
+
+    .nav__responvidebutton {
+        background-color: #0B0B3B;
+    }
+
+    .div__responsive {
+        position: relative;
+        top: -1000px;
+        background: #0B173B;
+        transition: all 1s;
+        z-index: 1;
+        width: 80%;
+        height: 70%;
+        padding-top: 10px;
+
+    }
+
+    .responsive_li {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .responsive_li a {
+        color: #ffff;
+        text-decoration: none;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .menu__responsive:hover>.div__responsive {
+        top: -2px;
+    }
+
+    .cabezera {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .banner {
+        display: none;
+    }
+
+    #promociones {
+        margin-top: 100px;
+    }
+
+    .flex-contenedor {
+        display: grid;
+        margin-left: 5px;
+        grid-template-areas:
+            "buzios zafiro"
+            "casablanca casazul"
+            " casaverde casarosa";
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .promo1 {
+        font-size: 30px;
+
+    }
+
+    .contenedor_imagenPrincipal {
+        width: 100px;
+    }
+
+    .consejo1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .consejop {
+        font-size: 15px;
+    }
+
+    table {
+        margin-top: 20px;
+        margin-left: 2%;
+        width: 50px;
+        height: 60px;
+    }
+
+    .consejos2 {
+        padding: 5px 3px;
+        font-size: 10px;
+    }
+
+    .pie-flex {
+        display: inline-flex;
+        justify-content: space-around;
+        height: 10px;
+        width: 100%;
+    }
+
+    .pie__flextitulo {
+        font-size: 9px;
+    }
+
+    .pie__flex2 {
+        font-size: 12px;
+    }
+
+    .pie-dato {
+        font-size: 5px;
+    }
+
+    .new {
+        display: none;
+        font-size: 12px;
+    }
+
+    .a_piedato {
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+
+
+    /*colchones*/
+    .bannercolchones {
+        display: none;
+    }
+
+    .nuestros_colchonesdiv {
+        margin-top: 30px;
+    }
+
+    #colchonContenedor {
+        width: 100%;
+        margin: 30px 80px;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-areas:
+            "matter1 matter2 "
+            "matter4 matter5"
+            "matter3 matter6";
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .unocolchon {
+        grid-area: matter1
+    }
+
+    .doscolchon {
+        grid-area: matter2
+    }
+
+    .trescolchon {
+        grid-area: matter3
+    }
+
+    .cuatrocolchon {
+        grid-area: matter4
+    }
+
+    .cincocolchon {
+        grid-area: matter5
+    }
+
+    .seiscolchon {
+        grid-area: matter6
+    }
+
+    .imagenColchon {
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .datosColchones {
+        display: none;
+    }
+
+    /* Sommier */
+    #SommierContenedor {
+        width: 80%;
+        margin: 10px 30px;
+        display: grid;
+        grid-template-areas:
+            "sommier1 sommier2"
+            "sommier4 sommier5 "
+            "sommier6 sommier3";
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    section.sommier {
+        width: 200px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid rgb(184, 184, 184);
+    }
+
+    .unosommier {
+        grid-area: sommier1
+    }
+
+    .dossommier {
+        grid-area: sommier2
+    }
+
+    .tressommier {
+        grid-area: sommier3
+    }
+
+    .cuatrosommier {
+        grid-area: sommier4
+    }
+
+    .cincosommier {
+        grid-area: sommier5
+    }
+
+    .seissommier {
+        grid-area: sommier6;
+    }
+
+
+    /* Nosotros */
+    .bannerQuienes {
+        display: none;
+    }
+
+    .tituloNosotros {
+        margin: 50px;
+    }
+
+    #Sobrenosotros {
+        display: flex;
+        justify-content: right;
+
+    }
+
+    .sobrenosotros__p {
+        margin: 10px
+    }
+
+    .cont__consultas2 {
+        display: none;
+    }
+
+    /*contactanos*/
+
+    .formulario {
+        min-width: 70px;
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+}

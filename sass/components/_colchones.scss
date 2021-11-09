@@ -1,0 +1,171 @@
+.bannercolchones{
+    padding: 100px 120px;
+    width: $max-width;
+    height: 300px;
+    background-image: url(../imagenes/bannercolchones.png);
+    background-size: cover;
+
+    &__h1{
+       @extend %bannerTitulo;
+    }
+}   
+
+.nuestros_colchonesdiv {
+    font-family: $font-principal;
+    color: black;
+}
+
+    .nuestros__colchones{
+        font-family: $font-principal;
+        font-size: 40px;
+        text-align: center;
+    }
+
+.historia {
+    margin-left: 10px;
+    font-family: $font-principal;
+    font-size: map-get($tamaño , estandar );
+}
+
+#colchonContenedor {
+    width: $max-width;
+    margin: 30px 80px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "matter1 matter2 matter3"
+        "matter4 matter5 matter6";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+section.contenedor1 {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.unocolchon {
+    grid-area: matter1
+}
+
+.doscolchon {
+    grid-area: matter2
+}
+
+.trescolchon {
+    grid-area: matter3
+}
+
+.cuatrocolchon {
+    grid-area: matter4
+}
+
+.cincocolchon {
+    grid-area: matter5
+}
+
+.seiscolchon {
+    grid-area: matter6
+}
+
+.imagenColchon {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.colchon__parrafo {
+    font-size: map-get($tamaño , pequeño );
+    width: 100%;
+    padding-right: 100px;
+    text-align: left;
+
+}
+
+.botonColchones {
+     @extend %botonesCompra;
+     color:#ffff;
+}
+
+.botonColchones:hover {
+    transform: scale(1.10);
+}
+
+.botonColchonesactive {
+    transform: scale(0.9);
+}
+
+.botonbotonColchones a {
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+.consejos2 {
+    padding: 50px 30px;
+    justify-content: space-around;
+}
+.consejo__informacion {
+    text-align: left;
+    color: #0B2161;
+}
+
+.consejos2__informacion {
+    margin-top: 10px;
+}
+
+.datosColchones {
+    margin-left: 50px;
+}
+
+.dato__conteiner {
+    width: $max-width;
+    margin: 30px 80px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+        "descanso"
+        "descanso1"
+        "descanso2";
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.uno {
+    grid-area: descanso
+}
+
+.dos {
+    grid-area: descanso1
+}
+
+.tres {
+    grid-area: descanso2
+}
+
+.dato__titulo {
+    margin-top: 35px;
+}
+
+.dato__text {
+    font-size: map-get($tamaño ,pequeño );
+    width: 100%;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.dato__primero:hover .dato__primeroImg {
+    -webkit-transform: scale(.3);
+    transform: scale(1.3);
+}
+
+.dato__primero {
+    overflow: hidden;
+}
+
+.dato__ref {
+    text-decoration: none;
+    color: #9077d4;
+
+}

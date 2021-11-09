@@ -1,0 +1,245 @@
+.bannerContactanos {
+    padding: 100px 120px;
+    background-image: url(../imagenes/bannerContacto.png);
+    background-size: cover;
+
+    &__h1 {
+        @extend %bannerTitulo;
+    }
+}
+/*
+.consultas{
+    margin-bottom: 500px;
+
+    &__h3{
+        font-size: 25px;
+    font-style: oblique;
+    color: #A9BCF5;
+    padding: 20px;
+    }
+}
+
+.conteiner-consultas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 10px;
+    padding: 10px;
+}
+.cont__consultas {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid;
+    height: 470px;
+    padding: 1px;
+
+
+&__consultas2 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    height: 500px;
+    padding: 5px;
+}
+}
+
+.whatsapp p {
+    font-family: $font-principal;
+    font-size: 20px;
+}
+
+.imagenwhatsapp {
+    height: 60px;
+    width: 60px;
+
+}
+
+
+.formulario__coment {
+    display: flex;
+    justify-content: center;
+    font-family: $font-principal;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.flex__conteiner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #606060;
+    margin: 50px 50px;
+}
+    .formulario {
+        min-width: 400px;
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+    }
+        .form__input {
+            width: 100%;
+            padding: 7px;
+            margin: 6px 0;
+            border: none;
+            border-bottom: 3px solid #58ACFA;
+            background: transparent;
+            color: #fff;
+        }
+            .form__input:focus {
+                background: linear-gradient(to bottom, transparent, #333);
+                outline: none;
+                border-bottom: 3px solid #2E64FE;
+        }
+        .form__textarea {
+            min-height: 140px;
+            resize: none;
+            }
+        
+        .form__input2 {
+        width: 100%;
+        padding: 7px;
+        margin: 6px 0;
+        border: none;
+        border-bottom: 3px solid #2E64FE;
+        background-color: #2E64FE;
+        color: #F2F2F2;
+        } 
+
+        
+    .form__imagen {
+        flex: 1;
+        padding: 10px;
+        display: flex;
+
+        .img-container {
+            padding: 10px;
+            margin: auto;
+
+        .img__container2 {
+                padding: 10px;
+                background-color: #fff;
+                border-radius:100%;
+                text-align: center;
+                width: 400px;
+            }
+                .imag__imagen2 {
+                    width: 60%;
+                    margin: auto;
+                }  
+        }
+    } 
+
+    */
+
+    .contactInfo {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        margin: calc(4vw + 4vh) auto calc(2vw + 2vh) auto; }
+        .contactInfo__gmap {
+          width: 45vw;
+          max-width: 80vw;
+          height: 50vh;
+          border: 0.1rem solid #191D32;
+          border-radius: calc(.5vw + .5vh); }
+        .contactInfo__ul {
+          text-align: left;
+          width: 45vw;
+          max-width: 80vw;
+          color: #191D32;
+          font-family: "Rubik", verdana, sans-serif;
+          font-weight: 400;
+          font-style: italic;
+          font-size: calc(.8rem + .8vw + .8vh);
+          line-height: 1.5; 
+          list-style: none;}
+        .contactInfo__li {
+          margin: 2.5vw; }
+      
+    .text__h3 {
+        font-family: "Rubik", verdana, sans-serif;
+        font-weight: 800;
+        /*font-style: normal;*/
+        font-size: 25px;
+        background-color: #222221;
+        color: #ffffff;
+        width: 100%;
+        /*text-shadow: 0 0 0.4rem #0489B1;*/
+        text-align: center;
+        margin-top: calc(2vw + 2vh);
+        }
+
+        .flex__conteiner {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: #D8D8D8;
+            margin: 50px 50px;
+        }
+            .formulario {
+                min-width: 400px;
+                flex: 1;
+                text-align: center;
+                padding: 20px;
+            }
+                .form__input {
+                    width: 100%;
+                    padding: 7px;
+                    margin: 6px 0;
+                    border: none;
+                    border-bottom: 3px solid #58ACFA;
+                    background: transparent;
+                    color: #fff;
+                }
+                    .form__input:focus {
+                        background: linear-gradient(to bottom, transparent, #333);
+                        outline: none;
+                        border-bottom: 3px solid #2E64FE;
+                }
+                .form__textarea {
+                    min-height: 140px;
+                    resize: none;
+                    }
+                
+                .form__input2 {
+                width: 100%;
+                padding: 7px;
+                margin: 6px 0;
+                border: none;
+                border-bottom: 3px solid #2E64FE;
+                background-color: #2E64FE;
+                color: #F2F2F2;
+                } 
+        
+                
+            .form__imagen {
+                flex: 1;
+                padding: 10px;
+                display: flex;
+        
+                .img-container {
+                    padding: 10px;
+                    margin: auto;
+        
+                .img__container2 {
+                        padding: 10px;
+                        background-color: #fff;
+                        border-radius:100%;
+                        text-align: center;
+                        width: 400px;
+                    }
+                        .imag__imagen2 {
+                            width: 60%;
+                            margin: auto;
+                        }  
+                }
+            } 
+        

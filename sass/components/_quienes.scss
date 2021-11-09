@@ -1,0 +1,53 @@
+.bannerQuienes{
+    padding: 100px 120px;
+    background-image: url(../imagenes/quienesbanner.png);
+    background-size: cover;
+
+
+    &__titulo{
+        @extend %bannerTitulo;
+    }
+}
+
+
+.nosotrosFoto{
+    display:flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px ;
+    margin-bottom:50px;
+    content:80%;
+    width:100%;
+}
+    .nosotrosFoto__foto1{
+        margin-left: 100px;
+        z-index: 1;
+    }
+
+
+.nosotros__texto{
+    height: 307px;
+    width: 549px;
+    background-color: #bca294;
+    opacity: 90%;
+    padding: 20px;
+    margin: -100px;
+    border: 1px solid #000000;
+    z-index: 2;
+
+
+    &__titulo{
+    text-align: center;
+    font-size: $font-principal;
+    color:#dfd4ce;
+    text-transform: uppercase;
+    }
+
+    &__parrafo{
+        color:#dfd4ce;
+        font-size: 1em;
+        font-family: $font-principal;
+        line-height: 25px;
+    }
+}
