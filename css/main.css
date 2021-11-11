@@ -646,16 +646,24 @@ section.sommier {
   margin: 2.5vw; }
 
 .text__h3 {
+  display: flex;
   font-family: "Rubik", verdana, sans-serif;
   font-weight: 800;
   /*font-style: normal;*/
   font-size: 25px;
-  background-color: #222221;
+  background-color: #6db4bf;
   color: #ffffff;
   width: 100%;
+  height: 50px;
   /*text-shadow: 0 0 0.4rem #0489B1;*/
   text-align: center;
   margin-top: calc(2vw + 2vh); }
+
+.text__texto {
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 90px; }
 
 .flex__conteiner {
   display: flex;
@@ -669,21 +677,22 @@ section.sommier {
   min-width: 400px;
   flex: 1;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  background-color: #F2F2F2; }
 
 .form__input {
   width: 100%;
   padding: 7px;
   margin: 6px 0;
   border: none;
-  border-bottom: 3px solid #F6D8CE;
+  border-bottom: 3px solid #D8D8D8;
   background: transparent;
-  color: #000; }
+  color: #0000; }
 
 .form__input:focus {
-  background: linear-gradient(to bottom, transparent, #F5A9A9);
+  background: linear-gradient(to bottom, transparent, #D8D8D8);
   outline: none;
-  border-bottom: 3px solid #F3E2A9; }
+  border-bottom: 3px solid #D8D8D8; }
 
 .form__textarea {
   min-height: 140px;
@@ -694,8 +703,8 @@ section.sommier {
   padding: 7px;
   margin: 6px 0;
   border: none;
-  border-bottom: 3px solid #F6CECE;
-  background-color: #F78181;
+  border-bottom: 3px solid #6db4bf;
+  background-color: #6db4bf;
   color: #ffffff; }
 
 .form__imagen {
