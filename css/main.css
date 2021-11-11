@@ -613,8 +613,7 @@ section.sommier {
 .bannerContactanos {
   padding: 100px 120px;
   background-image: url(../imagenes/bannerContacto.png);
-  background-size: cover;
-  width: 100px; }
+  background-size: cover; }
 
 .contactInfo {
   display: flex;
@@ -663,7 +662,7 @@ section.sommier {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  background: #D8D8D8;
+  background: #FBF5EF;
   margin: 50px 50px; }
 
 .formulario {
@@ -677,14 +676,14 @@ section.sommier {
   padding: 7px;
   margin: 6px 0;
   border: none;
-  border-bottom: 3px solid #58ACFA;
+  border-bottom: 3px solid #F6D8CE;
   background: transparent;
-  color: #fff; }
+  color: #000; }
 
 .form__input:focus {
-  background: linear-gradient(to bottom, transparent, #333);
+  background: linear-gradient(to bottom, transparent, #F5A9A9);
   outline: none;
-  border-bottom: 3px solid #2E64FE; }
+  border-bottom: 3px solid #F3E2A9; }
 
 .form__textarea {
   min-height: 140px;
@@ -695,9 +694,9 @@ section.sommier {
   padding: 7px;
   margin: 6px 0;
   border: none;
-  border-bottom: 3px solid #2E64FE;
-  background-color: #2E64FE;
-  color: #F2F2F2; }
+  border-bottom: 3px solid #F6CECE;
+  background-color: #F78181;
+  color: #ffffff; }
 
 .form__imagen {
   flex: 1;
