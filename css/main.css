@@ -180,7 +180,7 @@ nav ul {
     font-size: 60px;
     font-family: 'Merriweather', serif;
     text-align: center;
-    color: #000;
+    color: #0B0B61;
     margin-top: 10px; }
 
 .contenedor {
@@ -283,7 +283,7 @@ section.contenedor {
   font-size: 60px;
   font-family: 'Merriweather', serif;
   text-align: center;
-  color: #4CADC9;
+  color: #0B0B61;
   margin-top: 150px; }
 
 /*Tabla*/
@@ -305,10 +305,12 @@ td {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   text-align: left;
-  /*padding: 30px 20px;*/
-  margin-left: 1rem;
+  margin-left: 3rem;
   margin-top: 50px;
   word-spacing: 2px; }
+
+.contenedor__consejoTitulo {
+  color: #0B0B61; }
 
 /*Carrusel 2 */
 .carrusel {
@@ -322,14 +324,10 @@ td {
   margin-bottom: 40px; }
 
 .mediosdepago__texto {
-  color: #4CADC9;
+  color: #0B0B61;
   margin-top: 100px;
-  margin-left: 1rem;
-  margin-top: 1rem; }
-
-.contenedor__consejos2 {
-  margin-right: 5%;
-  margin-left: 5%; }
+  margin-left: 3rem;
+  margin-bottom: 2rem; }
 
 /*FOOTER */
 .pie {
@@ -379,18 +377,22 @@ td {
   background-size: cover; }
 
 .nuestros_colchonesdiv {
-  font-family: "Oswald", sans-serif;
-  color: black; }
+  font-family: "Oswald", sans-serif; }
 
 .nuestros__colchones {
   font-family: "Oswald", sans-serif;
-  font-size: 40px;
-  text-align: center; }
+  font-size: 60px;
+  text-align: center;
+  color: #0B0B61;
+  margin-top: 2rem; }
 
 .historia {
-  margin-left: 10px;
+  margin-left: 2rem;
+  margin-top: 7rem;
   font-family: "Oswald", sans-serif;
-  font-size: 20px; }
+  font-size: 30px;
+  font-size: 30px;
+  color: #000; }
 
 #colchonContenedor {
   width: 100%;
@@ -458,11 +460,15 @@ section.contenedor1 {
   text-align: left;
   color: #0B2161; }
 
+.consejo__parrafo {
+  color: #000; }
+
 .consejos2__informacion {
-  margin-top: 10px; }
+  margin-top: 10px;
+  color: #0B2161; }
 
 .datosColchones {
-  margin-left: 50px; }
+  margin-left: 2rem; }
 
 .dato__conteiner {
   width: 100%;
@@ -482,13 +488,18 @@ section.contenedor1 {
   grid-area: descanso2; }
 
 .dato__titulo {
-  margin-top: 35px; }
+  margin-top: 35px;
+  color: #0B0B61; }
 
 .dato__text {
   font-size: 15px;
   width: 100%;
   padding-right: 100px;
   text-align: left; }
+
+.dato__parrafo {
+  color: #000;
+  font-size: 1.5rem; }
 
 .dato__primero:hover .dato__primeroImg {
   -webkit-transform: scale(0.3);
@@ -507,11 +518,20 @@ section.contenedor1 {
   background-size: cover;
   height: 300px; }
 
-.text-center {
+.opciones__sommier {
+  margin-bottom: 5rem;
+  margin-left: 10px;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
   color: #0B0B61; }
 
+.text-center2 {
+  color: #0b0b61;
+  margin-left: 3rem; }
+
 .accordion {
-  margin-left: 10%;
+  margin-left: 3rem;
   width: 75%; }
 
 #collapseOne {
@@ -523,17 +543,12 @@ section.contenedor1 {
 #collapseThree {
   color: #380B61; }
 
-.opcionesSommier {
-  margin-top: 40px;
-  margin-left: 10px;
-  font-family: "Oswald", sans-serif; }
-  .opcionesSommier__sommier {
-    font-size: 40px;
-    margin-left: 10px;
-    color: #0B0B61; }
-  .opcionesSommier .sommier__p {
-    font-size: 15px;
-    margin-left: 10px; }
+.opciones__sommier2 {
+  margin-top: 6rem;
+  margin-left: 3.5rem;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  color: #0B0B61; }
 
 #SommierContenedor {
   width: 80%;
@@ -587,11 +602,24 @@ section.sommier {
   color: #D8D8D8; }
 
 .info__elegir {
-  margin-left: 10px; }
+  margin-bottom: 1rem;
+  color: #000; }
+
+.titulo__info {
+  color: #0B2161;
+  font-size: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem; }
+
+.text-sm-start {
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  font-size: 20px; }
 
 .bannerQuienes {
   padding: 100px 120px;
-  background-image: url(../imagenes/quienesbanner.png);
+  background-image: url(../imagenes/bannernosotros.png);
   background-size: cover; }
 
 .nosotrosFoto {
@@ -656,7 +684,7 @@ section.sommier {
   font-family: "Rubik", verdana, sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: calc(.8rem + .8vw + .8vh);
+  font-size: 2rem;
   line-height: 1.5;
   list-style: none; }
 

@@ -200,7 +200,7 @@ nav ul {
         font-size: map-get($tamaño , total );
         font-family: 'Merriweather', serif;
         text-align: center;  
-        color: #000;
+        color: #0B0B61;
         margin-top:10px;
     }
     
@@ -324,7 +324,7 @@ section.contenedor {
             font-size: map-get($tamaño , total );
             font-family: 'Merriweather', serif;
             text-align: center;  
-            color:#4CADC9;
+            color:#0B0B61;
             margin-top: 150px;
         }
 
@@ -350,11 +350,15 @@ section.contenedor {
         font-size: map-get($tamaño , estandar );
         font-family: $font-principal;
         text-align: left;
-        /*padding: 30px 20px;*/
-        margin-left: 1rem;
+        margin-left: 3rem;
         margin-top:50px;
         word-spacing: 2px;
     }
+
+    .contenedor__consejoTitulo{
+        color:#0B0B61;
+        }
+    
     
 
 
@@ -372,16 +376,12 @@ section.contenedor {
     }
 .mediosdepago__texto{
 
-    color:#4CADC9;
+    color:#0B0B61;  
     margin-top:100px;
-    margin-left: 1rem;
-    margin-top:1rem;
+    margin-left: 3rem;
+    margin-bottom:2rem;
 }
 
-.contenedor__consejos2{
-    margin-right: 5%;
-    margin-left: 5%;
-}
 
     /*FOOTER */ 
     .pie {

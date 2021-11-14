@@ -8,12 +8,24 @@
     }
 }
 
-.text-center {
-    color: #0B0B61
+.opciones__sommier {
+    margin-bottom: 5rem;
+    margin-left: 10px;
+    font-size: 60px;
+    text-align: center;
+    font-family: $font-principal;
+    color:#0B0B61;
+}
+
+
+.text-center2 {
+    color: rgb(11, 11, 97);
+    margin-left: 3rem;
+    
 }
 
 .accordion {
-    margin-left: 10%;
+    margin-left: 3rem;
     width: 75%;
 }
 
@@ -31,22 +43,14 @@
 }
 
 
-.opcionesSommier {
-    margin-top: 40px;
-    margin-left: 10px;
-    font-family: $font-principal;
+.opciones__sommier2{
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+    font-size: 40px ;
+    font-family: "Oswald", sans-serif;
+    color: #0B0B61;
+    }
 
-    &__sommier{
-        font-size: 40px;
-        margin-left: 10px;
-        color: #0B0B61
-    }
-    .sommier__p {
-        font-size: map-get($tamaño , pequeño );
-        margin-left: 10px;
-    
-    }
-}
 
 #SommierContenedor {
     width: 80%;
@@ -116,5 +120,20 @@ section.sommier {
 
 
 .info__elegir{
-    margin-left: 10px;
+    margin-bottom:1rem;
+    color:#000
+}
+
+.titulo__info{
+    color:#0B2161;
+    font-size: 3rem;
+    margin-top:8rem;
+    margin-bottom:2rem;
+    margin-left:3rem;
+}
+
+.text-sm-start{
+    margin-bottom:2rem;
+    margin-left:3rem;
+    font-size: 20px;
 }
