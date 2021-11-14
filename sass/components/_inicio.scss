@@ -131,13 +131,13 @@ nav ul {
 
 .banner{
     padding: 100px 120px;
-    background-image: url(../imagenes/1.png);
+    background-image: url(../imagenes/bannercama6.png);
     background-size: cover;
 
     &__titulo{
         font-size: map-get($tamaño , medio );
         padding: 30px 10px;
-        letter-spacing: 17px;
+        letter-spacing: 15px;
     }
 }
 
@@ -200,13 +200,14 @@ nav ul {
         font-size: map-get($tamaño , total );
         font-family: 'Merriweather', serif;
         text-align: center;  
-        color:#4CADC9
+        color: #000;
+        margin-top:10px;
     }
     
 }
 .contenedor {
     width: 100%;
-    margin: 30px 80px;
+    margin: 10px 80px;
     display: grid;
     grid-template-areas:
         "buzios zafiro casablanca"
@@ -319,7 +320,13 @@ section.contenedor {
             padding: 10px 0px;
         }
     
-
+        .promociones__titulo1{
+            font-size: map-get($tamaño , total );
+            font-family: 'Merriweather', serif;
+            text-align: center;  
+            color:#4CADC9;
+            margin-top: 150px;
+        }
 
         /*Tabla*/
     .consejos__tabla {
@@ -344,7 +351,8 @@ section.contenedor {
         font-family: $font-principal;
         text-align: left;
         /*padding: 30px 20px;*/
-        margin-left: 10px;
+        margin-left: 1rem;
+        margin-top:50px;
         word-spacing: 2px;
     }
     
@@ -353,18 +361,27 @@ section.contenedor {
     /*Carrusel 2 */
 .carrusel{
     background-color: #BDBDBD   ;
+    width:80%;
+    margin-left:10%;
 }
 
     .d-block1{
-        width: 800px;
-        margin-left:400px;
+        width: 500px;
+        margin-left: 350px;
         margin-bottom: 40px;
     }
 .mediosdepago__texto{
 
-    color:#4CADC9
+    color:#4CADC9;
+    margin-top:100px;
+    margin-left: 1rem;
+    margin-top:1rem;
 }
 
+.contenedor__consejos2{
+    margin-right: 5%;
+    margin-left: 5%;
+}
 
     /*FOOTER */ 
     .pie {
