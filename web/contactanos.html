@@ -17,50 +17,43 @@
 </head>
 
 <body>
-    <nav class="navegacion">
-        <div id="logotipo">
-            <a class="logotipo__ref" href="../index.html">
-                <img class="logotipo__img" src="../imagenes/logo2.png">
-            </a>
-
-            <ul class="navegacion__menu">
-                <li class="navegacion__items"><a href="../index.html"> Inicio</a></li>
-                <li class="navegacion__items"><a href="colchones.html"> Colchones</a></li>
-                <li class="navegacion__items"> <a href="sommier.html"> Sommier</a></li>
-                <li class="navegacion__items"><a href="quienes.html"> Nosotros</a></li>
-                <li class="navegacion__items"><a href="contactanos.html"> Contactanos</a>
-                    <ul class="navegacion__submenu">
-                        <li class="navegacion__submenu__item"> <a href="#">Facebook </a></li>
-                        <li class="navegacion__submenu__item"> <a href="#">Instagram </a></li>
-                    </ul>
-                </li>
-
-            </ul>
-
-            <ul class="menu__responsive">
-                <div class="nav__responvidebutton">
-                    <div class="buton__menuresponsive fas fa-bars">
-                        <lable class="logo__responsive">SommierDeluxe</lable>
-                    </div>
-
-                </div>
-                <div class="div__responsive">
-                    <li class="responsive__li"><a href="../index.html"> Inicio</a></li>
-                    <li class="responsive___li"><a href="colchones.html"> Colchones</a></li>
-                    <li class="responsive__li"><a href="sommier.html"> Sommier</a></li>
-                    <li class="responsive__li"><a href="quienes.html"> Nosotros</a></li>
-                    <li class="responsive__li"><a href="contactanos.html"> Contactanos</a>
-                        <ul class="div__submenu">
-                            <li> <a href="https://www.facebook.com/sommierdeluxe" target="_blank" >Facebook </a></li>
-                            <li> <a href="https://www.instagram.com/sommierdeluxe/" target="_blank"> Instagram </a></li>
-                        </ul>
-                    </li>
-                </div>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid1">
+          <a class="navbar-brand" href="#">
+              <img class="logotipo__img" src="../imagenes/logo2.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="colchones.html">Colchones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="sommier.html">Sommier</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="contactanos.html">Contactanos</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="quienes.html">Nosotros</a>
+              </li>
+    
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+    
+            
+          </div>
         </div>
-    </nav>
-
-    </header>
+      </nav>
     <main>
         <div class="bannerContactanos">
             <h1>Contactanos </h1>
@@ -130,7 +123,7 @@
             </div>
 
             <div class="pie__new">
-                <label for="uname">Subscribite a nuestro Newstaler : </label>
+                <label for="uname">Subscribite a nuestro Newsletter : </label>
                 <input type="mail" id="mail" name="mail" placeholder="Correo Electronico">
             </div>
         </div>

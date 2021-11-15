@@ -15,6 +15,47 @@
         object-fit:cover;
     }
 
+    .navbar{
+        background-color: #222221;
+    }
+.container-fluid1{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+    
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #ffff;
+        font-size: 1.5rem;
+    }
+
+    
+    .navbar-light .navbar-nav .nav-link.active{
+    color:#ffffff;
+    font-size: 1.5rem;
+    }
+    
+    .navbar-collapse{
+        margin-top:10px;
+    }
+
+.d-flex{
+    margin-left:400px;
+    
+}
+    .btn-outline-success{
+            color: #fff;
+            background-color: #4CADC9;
+            border-color: #4CADC9;
+        }
+   
+   
+
+    /*
 .navegacion__menu ul {
     margin: 0px;
     list-style: none;
@@ -128,6 +169,7 @@ nav ul {
 
 }
 
+*/
 
 .banner{
     padding: 100px 120px;

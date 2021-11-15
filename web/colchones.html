@@ -17,49 +17,43 @@
 </head>
 
 <body>
-    <nav class="navegacion">
-        <div id="logotipo">
-            <a class="logotipo__ref" href="../index.html">
-                <img class="logotipo__img" src="../imagenes/logo2.png">
-            </a>
-
-            <ul class="navegacion__menu">
-                <li class="navegacion__items"><a href="../index.html"> Inicio</a></li>
-                <li class="navegacion__items"><a href="colchones.html"> Colchones</a></li>
-                <li class="navegacion__items"> <a href="sommier.html"> Sommier</a></li>
-                <li class="navegacion__items"><a href="quienes.html"> Nosotros</a></li>
-                <li class="navegacion__items"><a href="contactanos.html"> Contactanos</a>
-                    <ul class="navegacion__submenu">
-                        <li class="navegacion__submenu__item"> <a href="#">Facebook </a></li>
-                        <li class="navegacion__submenu__item"> <a href="#">Instagram </a></li>
-                    </ul>
-                </li>
-
-            </ul>
-
-            <ul class="menu__responsive">
-                <div class="nav__responvidebutton">
-                    <div class="buton__menuresponsive fas fa-bars">
-                        <lable class="logo__responsive">SommierDeluxe</lable>
-                    </div>
-
-                </div>
-                <div class="div__responsive">
-                    <li class="responsive__li"><a href="../index.html"> Inicio</a></li>
-                    <li class="responsive___li"><a href="colchones.html"> Colchones</a></li>
-                    <li class="responsive__li"><a href="sommier.html"> Sommier</a></li>
-                    <li class="responsive__li"><a href="quienes.html"> Nosotros</a></li>
-                    <li class="responsive__li"><a href="contactanos.html"> Contactanos</a>
-                        <ul class="div__submenu">
-                            <li> <a href="#">Facebook </a></li>
-                            <li> <a href="#">Instagram </a></li>
-                        </ul>
-                    </li>
-                </div>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid1">
+          <a class="navbar-brand" href="#">
+              <img class="logotipo__img" src="../imagenes/logo2.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="colchones.html">Colchones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="sommier.html">Sommier</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="contactanos.html">Contactanos</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="quienes.html">Nosotros</a>
+              </li>
+    
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+    
+            
+          </div>
         </div>
-    </nav>
-
+      </nav>
 
     <main>
         <div class="bannercolchones">
@@ -172,7 +166,7 @@
                 <img src="../imagenes/descando.png" class="dato__primeroImg" alt="Imagen">
                 <div class="dato__cuerpo">
                     <h5 class="dato__titulo">Consejos para descansar mejor</h5>
-                    <p class="dato__text">El refranero español, que es muy sabio, dice aquello de que «el hábito no hace
+                    <p class="dato__text1">El refranero español, que es muy sabio, dice aquello de que «el hábito no hace
                         al monje» para recomendar no juzgar a las personas por su aspecto externo, pues no siempre el
                         exterior corresponde al interior. En este caso te vamos a dar cinco hábitos que harán que tu
                         exterior y tu
@@ -185,7 +179,7 @@
                 <img src="../imagenes/descanso2.png" class="dato__primeroImg" alt="Imagen">
                 <div class="dato__cuerpo">
                     <h5 class="dato__titulo">Si eres multitarea, tienes que dormir más</h5>
-                    <p class="dato__text">Un estudio en 2013 en la universidad Duke descubrió que las mujeres (que de
+                    <p class="dato__text2">Un estudio en 2013 en la universidad Duke descubrió que las mujeres (que de
                         por sí son más susceptibles que los hombres a sufrir depresión) tenían niveles superiores de
                         depresión, enfado y hostilidad por la mañana cuando no habían descansado de forma adecuada
                         .</p>
@@ -196,7 +190,7 @@
                 <img src="../imagenes/descanso1.png" class="dato__primeroImg" alt="Imagen">
                 <div class="dato__cuerpo">
                     <h5 class="dato__titulo">Beneficios de un buen descanso</h5>
-                    <p class="dato__text">Cuando duermes 8 horas al día disminuyes el riesgo de padecer obesidad,
+                    <p class="dato__text3">Cuando duermes 8 horas al día disminuyes el riesgo de padecer obesidad,
                         diabetes y algunas enfermedades cardiovasculares, como hipertensión. Además, mejorará tu
                         metabolismo y tendrás una mejor digestión.</p>
 
@@ -233,7 +227,7 @@
             </div>
 
             <div class="pie__new">
-                <label for="uname">Subscribite a nuestro Newstaler : </label>
+                <label for="uname">Subscribite a nuestro Newsletter : </label>
                 <input type="mail" id="mail" name="mail" placeholder="Correo Electronico">
             </div>
         </div>

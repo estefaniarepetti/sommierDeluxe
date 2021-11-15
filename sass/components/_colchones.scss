@@ -159,12 +159,30 @@ section.contenedor1 {
     color:#0B0B61;
 }
 
-.dato__text {
+.dato__text1 {
     font-size: map-get($tamaño ,pequeño );
     width: 100%;
     padding-right: 100px;
     text-align: left;
 }
+
+.dato__text2{
+    font-size: map-get($tamaño ,pequeño );
+    width: 100%;
+    padding-right: 100px;
+    text-align: left;
+    margin-bottom:4rem;
+}
+
+.dato__text3{
+    font-size: map-get($tamaño ,pequeño );
+    width: 100%;
+    padding-right: 100px;
+    text-align: left;
+    margin-bottom:5rem;
+
+}
+
 .dato__parrafo{
     color:#000;
     font-size: 1.5rem;
@@ -180,7 +198,7 @@ section.contenedor1 {
 }
 
 .dato__ref {
-    text-decoration: none;
+    text-decoration: none;  
     color: #9077d4;
 
 }
