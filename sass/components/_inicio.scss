@@ -46,7 +46,7 @@
 }
 
 .d-flex {
-    margin-left: 400px;
+    margin-left: 300px;
 
 }
 
@@ -380,7 +380,7 @@ td {
 
 
         &__flex2 {
-            font-size: map-get($tamaño, estandar);
+            font-size: map-get($tamaño, pequeño);
         }
     }
 

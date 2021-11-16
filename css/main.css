@@ -47,7 +47,7 @@
   margin-top: 10px; }
 
 .d-flex {
-  margin-left: 400px; }
+  margin-left: 300px; }
 
 .form-control {
   display: block;
@@ -308,7 +308,7 @@ td {
     text-transform: capitalize;
     color: #ffff; }
     .pie__titulo__flex2 {
-      font-size: 20px; }
+      font-size: 15px; }
   .pie .pie__divdato {
     display: block;
     flex-wrap: wrap;
