@@ -79,8 +79,8 @@
         font-size: 10px;
     }
 
-    .new {
-        display: none;
+    .pie__new{
+            margin-left:130px;
     }
 
     .pie__datoa {
@@ -312,13 +312,12 @@
 
     .pie__flex2 {
         font-size: 12px;
+        margin-left: 50px ;
     }
-
-    .pie-dato {
-        font-size: 5px;
-    }
-
-    .new {
+    .pie__divdato {
+    font-size: 10px;
+ }
+    .pie__new {
         display: none;
         font-size: 12px;
     }

@@ -20,12 +20,12 @@
 
 .text-center2 {
     color: rgb(11, 11, 97);
-    margin-left: 3rem;
+    margin-left: 10rem;
     
 }
 
 .accordion {
-    margin-left: 3rem;
+    margin-left: 10rem;
     width: 75%;
 }
 
@@ -45,7 +45,7 @@
 
 .opciones__sommier2{
     margin-top: 6rem;
-    margin-left: 3.5rem;
+    margin-left: 10rem;
     font-size: 40px ;
     font-family: "Oswald", sans-serif;
     color: #0B0B61;
@@ -53,8 +53,9 @@
 
 
 #SommierContenedor {
-    width: 80%;
-    margin: 30px 80px;
+    width: 90%;
+   /* margin: 30px 80px;*/
+   margin-left: 9rem;
     display: grid;
     grid-template-areas:
         "sommier1 sommier2 sommier3"
@@ -100,6 +101,17 @@ section.sommier {
     width: 250px;
     border-radius: 10px;
 }
+
+.button__sommier {
+    padding: 12px 24px;
+    margin-top: 30px;
+    background-Color: #0B243B;
+    border-Radius: 7px;
+    outline: 2px solid #0B243B;
+    outline-offset: 2px;
+    transition: transform 250ms cubic-bezier(0.2, 0.8, 0.4, 1);
+}
+
 .button__sommier {
     @extend %botonesCompra;
     color: #fff;

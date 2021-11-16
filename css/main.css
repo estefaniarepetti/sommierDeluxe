@@ -49,6 +49,22 @@
 .d-flex {
   margin-left: 400px; }
 
+.form-control {
+  display: block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+
 .btn-outline-success {
   color: #fff;
   background-color: #4CADC9;
@@ -171,7 +187,7 @@ section.contenedor {
 
 .contenedor__buttoncash {
   padding: 12px 24px;
-  margin-top: 20px;
+  margin-top: 30px;
   background-Color: #0B243B;
   border-Radius: 7px;
   outline: 2px solid #0B243B;
@@ -394,6 +410,15 @@ section.contenedor1 {
   text-align: left; }
 
 .botonColchones {
+  padding: 12px 24px;
+  margin-top: 30px;
+  background-Color: #0B243B;
+  border-Radius: 7px;
+  outline: 2px solid #0B243B;
+  outline-offset: 2px;
+  transition: transform 250ms cubic-bezier(0.2, 0.8, 0.4, 1); }
+
+.botonColchones {
   color: #ffff; }
 
 .botonColchones:hover {
@@ -496,10 +521,10 @@ section.contenedor1 {
 
 .text-center2 {
   color: #0b0b61;
-  margin-left: 3rem; }
+  margin-left: 10rem; }
 
 .accordion {
-  margin-left: 3rem;
+  margin-left: 10rem;
   width: 75%; }
 
 #collapseOne {
@@ -513,14 +538,15 @@ section.contenedor1 {
 
 .opciones__sommier2 {
   margin-top: 6rem;
-  margin-left: 3.5rem;
+  margin-left: 10rem;
   font-size: 40px;
   font-family: "Oswald", sans-serif;
   color: #0B0B61; }
 
 #SommierContenedor {
-  width: 80%;
-  margin: 30px 80px;
+  width: 90%;
+  /* margin: 30px 80px;*/
+  margin-left: 9rem;
   display: grid;
   grid-template-areas: "sommier1 sommier2 sommier3" "sommier4 sommier5 sommier6";
   grid-template-rows: repeat(2, 1fr);
@@ -555,6 +581,15 @@ section.sommier {
 .imagenSommier {
   width: 250px;
   border-radius: 10px; }
+
+.button__sommier {
+  padding: 12px 24px;
+  margin-top: 30px;
+  background-Color: #0B243B;
+  border-Radius: 7px;
+  outline: 2px solid #0B243B;
+  outline-offset: 2px;
+  transition: transform 250ms cubic-bezier(0.2, 0.8, 0.4, 1); }
 
 .button__sommier {
   color: #fff; }
@@ -652,7 +687,7 @@ section.sommier {
   font-family: "Rubik", verdana, sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   list-style: none; }
 
@@ -685,7 +720,9 @@ section.sommier {
   flex-wrap: wrap;
   justify-content: center;
   background: #FBF5EF;
-  margin: 50px 50px; }
+  margin: 50px 50px;
+  margin-left: 15rem;
+  width: 60%; }
 
 .formulario {
   min-width: 400px;
@@ -859,8 +896,8 @@ section.sommier {
     font-size: 15px; }
   .pie__dato {
     font-size: 10px; }
-  .new {
-    display: none; }
+  .pie__new {
+    margin-left: 130px; }
   .pie__datoa {
     text-decoration: none; } }
 
@@ -979,10 +1016,11 @@ section.sommier {
   .pie__flextitulo {
     font-size: 9px; }
   .pie__flex2 {
-    font-size: 12px; }
-  .pie-dato {
-    font-size: 5px; }
-  .new {
+    font-size: 12px;
+    margin-left: 50px; }
+  .pie__divdato {
+    font-size: 10px; }
+  .pie__new {
     display: none;
     font-size: 12px; }
   .a_piedato {
