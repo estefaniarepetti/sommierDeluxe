@@ -47,7 +47,7 @@
   margin-top: 10px; }
 
 .d-flex {
-  margin-left: 300px; }
+  margin-left: 400px; }
 
 .form-control {
   display: block;
@@ -337,7 +337,8 @@ td {
   list-style: none; }
   .mapa__titulo {
     font-size: 20px;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    margin-top: 1rem; }
 
 .bannercolchones {
   padding: 100px 120px;
