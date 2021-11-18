@@ -26,9 +26,7 @@
     align-items: center;
     justify-content: space-between;
 
-
 }
-
 
 .navbar-light .navbar-nav .nav-link {
     color: #ffff;
@@ -45,10 +43,11 @@
     margin-top: 10px;
 }
 
+
 .d-flex {
     margin-left: 300px;
-
 }
+
 
 .form-control {
     display: block;
@@ -85,11 +84,21 @@
         font-size: map-get($tamaño, medio);
         padding: 30px 10px;
         letter-spacing: 15px;
+        font-family: "MangoSans",sans-serif; 
     }
 }
 
 
+.promociones__divtitulo{
+    font-size:40px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #000;
+    margin-top:50px;
 
+}
+
+/*Carrusel */ 
 .carouselGallery {
     margin: calc(4vw + 4vh) auto calc(2vw + 2vh) auto;
 }
@@ -149,6 +158,18 @@
     display: none;
 }
 
+.container-fluid{
+    width:92%;
+
+}
+
+.container-fluid {
+    width: 92%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto; 
+    margin-left: auto;
+}
 
 
 /*Promociones */
@@ -171,8 +192,8 @@
 }
 
 .contenedor {
-    width: 100%;
-    margin: 10px 80px;
+   /* width: 80%; */
+    margin-left: 7rem;
     display: grid;
     grid-template-areas:
         "buzios zafiro casablanca"
@@ -180,7 +201,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
-    padding: 40px;
+   /* padding: 40px;*/  
 }
 
 .contenedor__p-descripion {
@@ -224,7 +245,7 @@ section.contenedor {
 }
 
 .contenedor__imagenPrincipal {
-    width: 250px;
+    /*width: 250px;*/
     border-radius: 10px;
 }
 
@@ -289,10 +310,10 @@ section.contenedor {
 }
 
 .promociones__titulo1 {
-    font-size: map-get($tamaño, total);
+    font-size: 40PX;
     font-family: 'Merriweather', serif;
     text-align: center;
-    color: #0B0B61;
+    color: #000;
     margin-top: 150px;
 }
 
@@ -324,8 +345,14 @@ td {
 }
 
 .contenedor__consejoTitulo {
-    color: #0B0B61;
+    color: #000;
+    font-family: $font-principal;
+
 }
+.contenedor__parrafo{
+    color:#888888;
+    }
+
 
 
 
@@ -333,8 +360,8 @@ td {
 /*Carrusel 2 */
 .carrusel {
     background-color: #FFFFFF;
-    width: 80%;
-    margin-left: 10%;
+    /* width: 80%; 
+    margin-left: 10%; */
 }
 
 .d-block1 {
@@ -352,11 +379,11 @@ td {
 }
 
 .mediosdepago__texto {
-
-    color: #0B0B61;
-    margin-top: 100px;
+    color: #000;
+    margin-top: 50px;
     margin-left: 3rem;
     margin-bottom: 2rem;
+    font-family: $font-principal;
 }
 
 

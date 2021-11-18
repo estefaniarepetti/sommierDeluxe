@@ -13,13 +13,13 @@
     margin-left: 10px;
     font-size: 60px;
     text-align: center;
-    font-family: $font-principal;
-    color:#0B0B61;
+    font-family: 'Merriweather', serif;
+    color:#000;
 }
 
 
 .text-center2 {
-    color: rgb(11, 11, 97);
+    color: #000;
     margin-left: 10rem;
     
 }
@@ -47,8 +47,8 @@
     margin-top: 6rem;
     margin-left: 10rem;
     font-size: 40px ;
-    font-family: "Oswald", sans-serif;
-    color: #0B0B61;
+    font-family: $font-principal;
+    color: #000;
     }
 
 
@@ -137,7 +137,7 @@ section.sommier {
 }
 
 .titulo__info{
-    color:#0B2161;
+    color:#000;
     font-size: 3rem;
     margin-top:8rem;
     margin-bottom:2rem;
@@ -148,4 +148,5 @@ section.sommier {
     margin-bottom:2rem;
     margin-left:3rem;
     font-size: 20px;
+    color: #888888;
 }

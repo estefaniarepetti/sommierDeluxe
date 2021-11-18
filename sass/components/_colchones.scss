@@ -16,10 +16,10 @@
 }
 
     .nuestros__colchones{
-        font-family: $font-principal;
+        font-family:'Merriweather', serif;
         font-size: 60px;
         text-align: center;
-        color: #0B0B61;
+        color: #000;
         margin-top: 2rem;
     }
 
@@ -30,11 +30,12 @@
     font-size: map-get($tamaño , medio );
     font-size: 30px;
     color: #000;
+    text-align: center;
 }
 
 #colchonContenedor {
-    width: $max-width;
-    margin: 30px 80px;
+    width: 80%;
+    margin: 30px 150px;
     display: grid;
     justify-content: space-evenly;
     grid-template-areas:
@@ -124,16 +125,18 @@ section.contenedor1 {
 }
 .consejo__informacion {
     text-align: left;
-    color: #0B2161;
+    color: #000;
 
 }
 .consejo__parrafo{
-    color:#000;
+    color:#888888;
+    font-family: $font-principal;
 }
 
 .consejos2__informacion {
     margin-top: 10px;
-    color: #0B2161;
+    color: #000;
+    font-family: $font-principal;
 }
 
 .datosColchones {
@@ -141,7 +144,7 @@ section.contenedor1 {
 }
 
 .dato__conteiner {
-    width: $max-width;
+    /*width: $max-width;*/
     margin: 30px 80px;
     display: grid;
     justify-content: space-between;
@@ -167,7 +170,8 @@ section.contenedor1 {
 
 .dato__titulo {
     margin-top: 35px;
-    color:#0B0B61;
+    color:#000;
+    font-family:$font-principal ;
 }
 
 .dato__text1 {
