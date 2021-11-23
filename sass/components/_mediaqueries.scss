@@ -10,6 +10,9 @@
         padding: 100px 90px;
     }
 
+    .carousel2{
+        display:none;
+    }
 
     .contenedor {
         display: grid;
@@ -28,6 +31,22 @@
 
     .contenedor_imagenPrincipal {
         width: 100px;
+    }
+
+    .contenedor__buttoncash {
+        padding: 12px 24px;
+        margin-top: 72px;
+        background-Color: #0B243B;
+        border-Radius: 7px;
+        outline: 2px solid #0B243B;
+        outline-offset: 2px;
+        transition: transform 250ms cubic-bezier(0.2, 0.8, 0.4, 1);
+    }
+   
+    .contenedor__p-descripion {
+        width: 200px;
+        font-size: 15px;
+        text-align: left;
     }
 
     .consejo1 {
@@ -60,6 +79,10 @@
 
     }
 
+   
+
+
+    /*Footer */ 
     .pie {
         display: inline-flex;
         justify-content: space-around;
@@ -103,6 +126,10 @@
 
     .logotipo__img {
         display: none;
+    }
+
+    .carousel2{
+        display:none;
     }
 
     /*productos inicios*/
@@ -156,6 +183,69 @@
         display: none;
     }
     
+ /*Colchones*/
+ #colchonContenedor {
+    width: 80%;
+    margin: 30px 80px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: "matter1 matter2 matter3"
+  "matter4 matter5 matter6";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+
+
+/* dato conteiner*/
+
+.dato__conteiner {
+    margin: 10px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas: "descanso"
+  "descanso1"
+  "descanso2";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.dato__text1 {
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.dato__text2 {
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    padding-right: 54px;
+   
+}
+
+.dato__text3 {
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    padding-right: 69px;
+     
+}
+
+/*Sommier */ 
+#SommierContenedor {
+    width: 90%;
+    margin: 12px;
+    /* margin-left: 9rem; */
+    display: grid;
+    grid-template-areas: "sommier1 sommier2 sommier3"
+  "sommier4 sommier5 sommier6";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+
 
     /*footer*/
     .pie {
@@ -178,6 +268,7 @@
     .a_piedato {
         text-decoration: none;
     }
+
 
 
     
@@ -204,8 +295,26 @@
 
 }
 
+/* Nosotros */ 
+
+.nosotrosFoto__foto1 {
+    /* margin-left: 100px; */
+    z-index: 1;
+}
+
+.nosotros__texto {
+    height: 500px;
+    width: 549px;
+    background-color: #bca294;
+    opacity: 90%;
+    padding: 20px;
+    margin: -100px;
+    border: 1px solid #000000;
+    z-index: 2;
+}
 
 /*tel moviles */
+
 @media only screen and (max-width:420px) {
 
     #logotipo {
@@ -222,13 +331,14 @@
     }
 
     .d-flex{
-
         display: none!important;
     }
     .promociones__titulo {
         font-size: 40px;
     }
-
+ .promociones__divtitulo{
+     display:none;
+ }
     .carouselGallery__imgContainer {
         width: 70%;
     }
@@ -248,16 +358,20 @@
     }
 
 
+#carouselGalleryA{
+    display:none;
+}
+    
 
     .contenedor {
         display: grid;
         margin-left: 5px;
         grid-template-areas:
-            "buzios "
-            "casablanca "
-            " casaverde ";
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(1, 1fr);
+            "buzios zafiro"
+            "casablanca casarosa "
+            " casaverde casaazul";
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
@@ -266,8 +380,8 @@
 
     }
 
-    .contenedor_imagenPrincipal {
-        width: 100px;
+    .contenedor__imagenPrincipal {
+        width: 150px;
     }
 
     .consejo1 {
@@ -344,7 +458,7 @@
 
     #colchonContenedor {
         width: 100%;
-        margin: 30px 80px;
+        margin: 30px;
         display: grid;
         justify-content: space-evenly;
         grid-template-areas:
@@ -381,7 +495,7 @@
     }
 
     .imagenColchon {
-        width: 250px;
+        width: 130px;
         border-radius: 10px;
     }
 
@@ -390,6 +504,28 @@
     }
 
     /* Sommier */
+
+    .bannersommier{
+        display: none;
+    }
+    .text-center2 {
+        color: #000;
+        margin-left: 5rem;
+    }
+
+    .accordion {
+        margin-left: 5rem;
+        width: 75%;
+    }
+
+    .opciones__sommier2 {
+        margin-top: 6rem;
+        margin-left: 1rem;
+        font-size: 30px;
+        font-family: "Oswald", sans-serif;
+        color: #000;
+    }
+
     #SommierContenedor {
         width: 80%;
         margin: 10px 30px;
@@ -436,6 +572,11 @@
     }
 
 
+    .imagenSommier {
+        width: 130px;
+        border-radius: 10px;
+    }
+
     /* Nosotros */
     .bannerQuienes {
         display: none;
@@ -477,6 +618,15 @@
 
     .contactInfo__ul {
         font-size: 25px;
+    }
+    .flex__conteiner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: #FBF5EF;
+        margin: 50px 50px;
+        width: 60%;
     }
 
 
