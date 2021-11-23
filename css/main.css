@@ -1070,7 +1070,6 @@ section.sommier {
   opacity: 90%;
   padding: 20px;
   margin: -100px;
-  margin-right: 00px;
   border: 1px solid #000000;
   z-index: 2; }
 
@@ -1179,6 +1178,8 @@ section.sommier {
   .datosColchones {
     display: none; }
   /* Sommier */
+  .bannersommier {
+    display: none; }
   .text-center2 {
     color: #000;
     margin-left: 5rem; }
