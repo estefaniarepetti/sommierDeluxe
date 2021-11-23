@@ -147,6 +147,9 @@
   margin-right: auto;
   margin-left: auto; }
 
+.carousel2 {
+  display: none; }
+
 /*Promociones */
 .promociones {
   background-color: white; }
