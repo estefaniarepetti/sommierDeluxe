@@ -506,7 +506,9 @@ section.contenedor1 {
 .dato__titulo {
   margin-top: 35px;
   color: #000;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center; }
 
 .dato__text1 {
   font-size: 15px;
