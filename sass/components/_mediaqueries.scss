@@ -367,11 +367,11 @@
         display: grid;
         margin-left: 5px;
         grid-template-areas:
-            "buzios "
-            "casablanca "
-            " casaverde ";
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(1, 1fr);
+            "buzios zafiro"
+            "casablanca casarosa "
+            " casaverde casaazul";
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
@@ -380,8 +380,8 @@
 
     }
 
-    .contenedor_imagenPrincipal {
-        width: 100px;
+    .contenedor__imagenPrincipal {
+        width: 150px;
     }
 
     .consejo1 {
