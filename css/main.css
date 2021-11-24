@@ -1082,6 +1082,8 @@ section.sommier {
     display: none; }
   .logotipo__img {
     display: none; }
+  .navbar {
+    background-color: #585858; }
   .d-flex {
     display: none !important; }
   .promociones__titulo {
@@ -1238,13 +1240,15 @@ section.sommier {
   /*contactanos*/
   .text__h3 {
     height: 190px; }
+  .bannerContactanos {
+    display: none; }
   .formulario {
     min-width: 70px;
     flex: 1;
     text-align: center;
     padding: 20px; }
   .contactInfo__ul {
-    font-size: 25px; }
+    font-size: 20px; }
   .flex__conteiner {
     display: flex;
     align-items: center;

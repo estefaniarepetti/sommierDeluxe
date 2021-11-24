@@ -330,6 +330,10 @@
         display: none;
     }
 
+    .navbar{
+        background-color: #585858;
+    }
+
     .d-flex{
         display: none!important;
     }
@@ -607,7 +611,9 @@
         height: 190px;
 
     }
-
+    .bannerContactanos{
+        display:none;
+    }
     .formulario {
         min-width: 70px;
         flex: 1;
@@ -617,7 +623,7 @@
     }
 
     .contactInfo__ul {
-        font-size: 25px;
+        font-size: 20px;
     }
     .flex__conteiner {
         display: flex;
