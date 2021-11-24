@@ -338,8 +338,13 @@
         display: none!important;
     }
     .promociones__titulo {
-        font-size: 40px;
-    }
+        font-size: 40PX;
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        color: #000;
+    
+        }
+    
  .promociones__divtitulo{
      display:none;
  }
@@ -378,6 +383,12 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .contenedor__p-descripion {
+        width: 200px;
+        font-size: 15px;
+        text-align: left;
+    }
+
 
     .promo1 {
         font-size: 30px;
@@ -407,6 +418,15 @@
     .consejos2 {
         padding: 5px 3px;
         font-size: 10px;
+    }
+
+    .contenedor__consejos2 {
+        font-size: 15px;
+        font-family: "Oswald", sans-serif;
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 50px;
+        word-spacing: 2px;
     }
 
 
@@ -514,11 +534,11 @@
     }
     .text-center2 {
         color: #000;
-        margin-left: 5rem;
+        margin-left: 2em;
     }
 
     .accordion {
-        margin-left: 5rem;
+        margin-left: 3rem;
         width: 75%;
     }
 
@@ -621,9 +641,16 @@
         padding: 20px;
 
     }
-
+    .text__texto{
+        justify-content: center;
+        text-decoration: none;
+        color: #ffffff;
+        margin-left: 2rem;
+        margin-top: 20px;
+        }
+    
     .contactInfo__ul {
-        font-size: 20px;
+        font-size: 1rem;
     }
     .flex__conteiner {
         display: flex;
