@@ -185,8 +185,8 @@
     }
     
  /*Colchones*/
- #colchonContenedor {
-    width: 80%;
+
+  #colchonContenedor {
     margin: 30px 80px;
     display: grid;
     justify-content: space-evenly;
@@ -345,7 +345,10 @@
         color: #000;
     
         }
-    
+.promociones__div{
+    display:none;
+}
+
  .promociones__divtitulo{
      display:none;
  }
@@ -363,15 +366,21 @@
         display: none;
     }
 
-    #promociones {
-        margin-top: 100px;
-    }
+
 
 
 #carouselGalleryA{
     display:none;
 }
     
+
+.promociones__titulo1 {
+    font-size: 40PX;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #000;
+    margin-top: 1px; 
+}
 
     .contenedor {
         display: grid;
@@ -433,7 +442,7 @@
         margin-left: 1rem;
         margin-top: 50px;
         word-spacing: 2px;
-        width:70%;
+        width:90%;
     }
 
 
