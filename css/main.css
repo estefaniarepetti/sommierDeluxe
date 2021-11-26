@@ -461,6 +461,7 @@ section.contenedor1 {
   text-decoration: none;
   color: #D8D8D8; }
 
+/*consejos */
 .consejos2 {
   padding: 50px 30px;
   justify-content: space-around; }
@@ -1218,12 +1219,7 @@ section.sommier {
   .colchon__parrafo {
     width: 150px;
     font-size: 15px;
-    text-align: left;
-    /*
-        font-size: 15px;
-        width: 100%;
-        padding-right: 100px;
-        text-align: left; */ }
+    text-align: left; }
   .consejos2__titulo {
     display: flex;
     justify-content: center;
@@ -1237,6 +1233,15 @@ section.sommier {
     color: #888888;
     font-family: "Oswald", sans-serif;
     margin-left: .5rem; }
+  .seccionServicios {
+    margin: 2px;
+    height: auto; }
+  .contenedorServicios {
+    margin: 1rem;
+    width: 290px;
+    height: 190px; }
+  .clicMasInfo {
+    display: none; }
   /* Sommier */
   .bannersommier {
     display: none; }
@@ -1292,6 +1297,8 @@ section.sommier {
     margin-left: .5rem;
     font-size: 20px;
     color: #888888; }
+  .datosColchones {
+    display: none; }
   /* Nosotros */
   .bannerQuienes {
     display: none; }

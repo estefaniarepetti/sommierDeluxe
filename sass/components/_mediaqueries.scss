@@ -504,6 +504,7 @@
         color: #000;
         margin-top: 2rem;
     }
+    
     .historia {
         /* margin-left: 2rem; */
         margin-top: 7rem;
@@ -526,6 +527,8 @@
         grid-template-columns: repeat(2, 1fr);
         
     }
+
+    
     .unocolchon {
         grid-area: matter1
     }
@@ -561,17 +564,11 @@
 
 
     .colchon__parrafo {
-
         width: 150px;
         font-size: 15px;
         text-align: left;
-        /*
-        font-size: 15px;
-        width: 100%;
-        padding-right: 100px;
-        text-align: left; */
     }
-
+    
 
     .consejos2__titulo {
         display: flex;
@@ -591,6 +588,24 @@
         font-family: "Oswald", sans-serif;
         margin-left: .5rem;
     }
+
+
+.seccionServicios {
+    margin: 2px;
+    height: auto;
+}
+
+
+.contenedorServicios {
+    margin: 1rem;
+    width: 290px;
+    height: 190px;
+}
+
+.clicMasInfo {
+    display:none;
+}
+
 
     /* Sommier */
 
@@ -679,6 +694,10 @@
         margin-left: .5rem;
         font-size: 20px;
         color: #888888;
+    }
+
+    .datosColchones {
+        display:none;
     }
 
     /* Nosotros */
